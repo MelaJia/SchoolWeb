@@ -1,0 +1,129 @@
+/* CSS Document */
+*{
+	padding: 0px;
+		margin: 0px;
+	}
+/*.img{
+	
+	height: auto;
+	
+	display: block;
+	max-width: 100%;
+}*/
+/*width: 100%;设置背景*/
+/*max-width: 100%;*//*不会超过本身大小*/
+.navbar{
+	margin-bottom: 20px;
+}
+.list-group-item a{
+	color: #495057;
+	text-decoration:block;
+	word-break: keep-all;/*设置文本只能在半角空格或连字符处换行*/
+	white-space: nowrap;/*设置文本不换行*/
+	overflow: hidden;/*设置超出部分隐藏*/
+	text-overflow: ellipsis;/*显示省略符号来代表被修建的文本*/
+	display: block;/*此元素将显示为块级元素，此元素前后带有换行符*/
+	font: 15px"Microsoft YaHei"
+}
+.userRegisterText{
+	display: inline-block; /*设置容器为内联块对象*/
+	width: 20%; /*设置容器宽度*/
+	text-align: right;  
+	padding-right: 5px;
+	font: bold 15px "Microsoft YaHei";
+	vertical-align: top;  /*设置容器垂直对齐方式为顶端对齐*/
+}
+/*设置用户注册项右边输入框容器的样式*/
+.userRegisterInput{
+	display: inline-block;
+	width: 70%;
+}
+/*设置用户注册项右边输入提示文字容器的样式*/
+.userRegisterNotice{
+	font: 15px "Microsoft YaHei";
+	color: #444444;
+	padding: 8px 0px;
+}
+#tab_ul li a:focus{
+	background: #337AB7;  /*设置背景颜色为蓝色*/
+	color: #FFFFFF;      /*设置文字颜色为白色*/
+}
+.media-object{
+	width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.img-thumbnail{
+	-moz-transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+		transition: all 2s ease-in-out;
+}
+.img-thumbnail:hover{
+	-moz-transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+		transform:rotateY(180deg);
+
+}
+/*快捷通道图片抖动*/
+#divChannelLink .col-xs-4 img{
+	margin: 0 auto;   /*设置居中*/
+	transform: translateY(0rem);  /* 设置原素回到原点*/
+	transition: all .25s ease;    /*设置动画效果时间
+*/
+}
+#divChannelLink .col-xs-4:hover img{
+	transform: translateY(-1rem);   /*设置元素向下移动1rem*/
+}
+
+#divFooter{
+		background-color: #34383d;
+		margin-top: 10px;
+	}
+#divFooter .row div{
+	color: #cccacc;
+	font:15px"Microsoft yahei";
+	line-height: 30px;
+}
+#divFooter .row a{
+	color: #cccacc;
+}
+#divFooter .row ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#divFooter .rowLinkLogo{
+	padding: 30px 0;
+	border-bottom: 1px solid #2b2e32;
+}
+.rowLinkLogo .leftLink{
+	text-align: right;
+	border-right: 1px solid #454a51;
+}
+.rowLinkLogo .centerLogo{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.rowLinkLogo .rightLink{
+	text-align: left;
+	border-left: 1px solid #454a51;
+}
+.divCopyright{
+	background-color: #2b2e32;
+	border-top: 1px solid #3e4248;
+	padding: 20px 0px;
+	text-align: center;
+}
+.divCopyright center{
+	color: #cccacc;
+	font-weight: bold;
+}
+
+	
+ 

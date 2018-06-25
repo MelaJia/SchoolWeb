@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<script type="text/javascript" src="ckplayer/ckplayer/ckplayer.js"  charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<title>视频</title>
+</head>
+<body>
+<!-- 	<div class="col-md-5">
+		<div id="divVideo" onmouseover="mouseOver()" onmouseout="mouseOut()">
+			<script type="text/javascript">
+				var flashvars={
+					f:'mp4/music.mp4',
+				}
+			//	var video=[]
+				CKobject.embedSWF('ckplayer/ckplayer/ckplayer.swf','divVideo','ckplayer_all','100%','400',flashvars);
+
+								
+
+			</script>
+		</div> -->
+
+
+		<div class="col-md-5">
+		<div id="al" onmouseover="mouseOver()" onmouseout="mouseOut()">
+			<script type="text/javascript">
+				var flashvars={
+					f:'video/music.mp4',
+				}
+			    var video=['mp4/music.mp4'];
+			    var support=['all'];
+				CKobject.embedHTML5('all','ckplayer_all','100%','400',video,flashvars,support);
+
+								
+
+			</script>
+		</div>
+	</div>
+
+
+	
+</body>
+</html>
